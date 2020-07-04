@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test01 {
     @RequestMapping("/test")
     public String test(){
-        return "修改修改！！！";
+        return "今天完成了jenkins+docker部署项目，好开心~~~";
     }
 }
