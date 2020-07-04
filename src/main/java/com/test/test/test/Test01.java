@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test01 {
     @RequestMapping("/test")
     public String test(){
-        return "今天是你滴生日/r/n我滴小玲儿~~~~~~~~~~~~~~~~~~~";
+        return "修改修改！！！";
     }
 }
