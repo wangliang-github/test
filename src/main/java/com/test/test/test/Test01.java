@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test01 {
     @RequestMapping("/test")
     public String test(){
-        return "看生效了吗";
+        return "jenkins自动构建每次删除容器和镜像然后重新构建镜像在运行，这样可行吗";
     }
 }
